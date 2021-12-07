@@ -1,0 +1,447 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    height:100px;
+    width:100%;
+    border-style: double;
+    background: radial-gradient(#fff,#dbe3d5)
+}
+nav{
+    flex:1;
+    text-align:right;
+    
+}
+nav ul {
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display:inline-block;
+    margin-right:20px;
+    color:black;
+    font-size:17px;
+    text-transform: uppercase;
+    padding:7px 13px;
+    border-radius:3px;
+}
+.onama-container p{
+    text-align:center;
+    color:white;
+    font-size: 18px;
+    letter-spacing: -0,1px;
+    
+
+    
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a.active, a:hover {
+    background:#dbe3d5;
+    transition: .5s;
+    
+}
+.container{
+    max-width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn  {
+    display:inline-block;
+    background:#a2acbd;
+    color:black;
+    padding:8px 30px;
+    margin:30px 0px;
+    border-radius:30px;
+    transition:backgorund 0,5s;
+    text-align: justify;
+    margin:50px;
+    
+}
+
+#header{
+    position:fixed;
+    z-index: 1000;
+    left:0;
+    top:0;
+    width:100vw;
+    height:auto;
+}
+#onama{
+    background-image: url("../Sajt/images/coveksagitarom.jpg");
+    background-size: cover;
+    background-position: top center;
+    position:relative;
+    z-index:1;
+    width:100%;
+    height:700px;
+    
+}
+.cleaner{
+    clear:both;
+}
+#onama .onama {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#onama::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+#onama h1 {
+	display: block;
+	width: fit-content;
+	font-size: 45px;
+	position:relative;
+    color:white;
+    text-align: center;
+    padding:50px;
+    margin:auto;
+}
+/* Proizvodi */
+#proizvodi .proizvodi-top{
+    max-width:500px;
+    margin:0 auto;  
+}
+
+#proizvodi .proizvodi-container{
+    flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#proizvodi .proizvodi-bottom{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+#proizvodi .proizvodi-item1{
+    flex-basis:80%;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding:80px;
+    border-radius: 30px;
+    background-image:url("../Sajt/images/zidsagitarama2.jpg");
+    background-size:cover;
+    margin:15px 5%;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+}
+.proizvodi-item2 {
+    flex-basis:80%;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding:80px;
+    border-radius: 30px;
+    background-image:url("../Sajt/images/majstor2.jpg");
+    background-size:cover;
+    margin:15px 5%;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    
+
+}
+.proizvodi-item3{
+    flex-basis:80%;
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding:80px;
+    border-radius: 30px;
+    background-image:url("../Sajt/images/ucitelj.jpg");
+    background-size:cover;
+    margin:15px 5%;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+
+}
+.proizvodi-item1, .opis2, .opis1{
+    color:#e8bf2a;
+    border-radius: 5px;
+    background-color: black;
+	z-index: -1;
+}
+.proizvodi-item1, .opis1:hover{
+    color:#544304;
+}
+.proizvodi-item1, .opis2{
+    color:#e8bf2a;
+    border-radius: 5px;
+    background-color: black;
+	z-index: -1;
+}
+.proizvodi-bottom .icon{
+    height:80px;
+    width:80px;
+    margin-bottom:20px;
+}
+.proizvodi-item3, .opis2, .opis1{
+    color:#e8bf2a;
+    background-color: black;
+	z-index: -1;
+    
+}
+.icon{
+    width:80px;
+    height:50px;
+    border-radius: 45px;
+    padding:15px;
+    background-color: white;
+}
+.section-title{
+    font-weight: normal;
+    font-size: 35px;
+    position:relative;
+    margin:40px 0px;
+}
+.section-title::before{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:3px;
+    background-color: gray;
+    bottom:-10px;
+    left:50%;
+    transform:translateX(-50%);
+    animation:animate 6s linear infinite;
+}
+/* KrajProizvodi */
+
+
+/*Galerija*/
+#slider{
+    overflow: hidden;
+}
+#slider figure {
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation:10s slider infinite;
+}
+#slider figure img {
+    width:5%; 
+    float:left;
+}
+@keyframes slider {
+    0% {
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+}
+.galerija{
+    
+    text-align: center;
+
+}
+.naslovgalerije{
+    font-weight: normal;
+    font-size: 35px;
+    position:relative;
+    margin:40px 0px;
+}
+.naslovgalerije::before{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:3px;
+    background-color: gray;
+    bottom:-10px;
+    left:50%;
+    transform:translateX(-50%);
+    animation:animate 6s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width:100px;
+    }
+    50%{
+        width:200px;
+    }
+    100%{
+        width:100px;
+    }
+}
+footer{
+    margin-top:50px;
+    width:100%;
+    background:linear-gradient(to right,#b0ada4,gray);
+    padding:100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size:13px;
+    line-height: 20px;
+    height:150px;
+}
+.row1{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    justify-content: space-between;
+
+    
+}
+.kolona{
+    flex-basis:25%;
+    margin:-90px;
+    margin-left:30px;
+
+}
+.col{
+    flex-basis:25%;
+    margin:-90px;
+    margin-left:30px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.col h3{
+    width:fit-content;
+    position: relative;
+}
+.email-id{
+    width:fit-content;
+    border-bottom: 1px solid #ccc;
+    margin:10px 0;
+}
+
+.col ul li{
+    list-style-type: none;
+    
+}
+.ikone {
+    width:350px;
+    height:100%;
+    justify-content: right;
+}
+.fab{
+    height:40px;
+    width:100px;
+    display: grid;
+    size:5px;
+    margin:-90px;
+    padding:50px;
+    margin-right:55px;
+}
+.fas{
+    height:40px;
+    width:100px;
+    display: grid;
+    size:5px;
+    margin:-90px;
+    padding:50px;
+    padding-bottom: 30px; 
+}
+
+   
+    
+
+
+
+    
+    
+    
+
+
+
+
+   
+
+
+
+
+
+    
+
+ 
+ 
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+    
+
+    
+
+
+    
+    
+
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+   
