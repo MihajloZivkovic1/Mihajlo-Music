@@ -181,7 +181,7 @@ a.active, a:hover {
     flex-direction: column;
     padding:80px;
     border-radius: 30px;
-    background-image:url(".images/ucitelj.jpg");
+    background-image:url("./images/ucitelj.jpg");
     background-size:cover;
     margin:15px 5%;
     position:relative;
