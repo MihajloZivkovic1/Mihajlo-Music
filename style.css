@@ -82,7 +82,7 @@ a.active, a:hover {
     height:auto;
 }
 #onama{
-    background-image: url("../Sajt/images/coveksagitarom.jpg");
+    background-image: url("./images/coveksagitarom.jpg");
     background-size: cover;
     background-position: top center;
     position:relative;
@@ -149,7 +149,7 @@ a.active, a:hover {
     flex-direction: column;
     padding:80px;
     border-radius: 30px;
-    background-image:url("../Sajt/images/zidsagitarama2.jpg");
+    background-image:url("./images/zidsagitarama2.jpg");
     background-size:cover;
     margin:15px 5%;
     position:relative;
@@ -164,7 +164,7 @@ a.active, a:hover {
     flex-direction: column;
     padding:80px;
     border-radius: 30px;
-    background-image:url("../Sajt/images/majstor2.jpg");
+    background-image:url("./images/majstor2.jpg");
     background-size:cover;
     margin:15px 5%;
     position:relative;
@@ -181,7 +181,7 @@ a.active, a:hover {
     flex-direction: column;
     padding:80px;
     border-radius: 30px;
-    background-image:url("../Sajt/images/ucitelj.jpg");
+    background-image:url(".images/ucitelj.jpg");
     background-size:cover;
     margin:15px 5%;
     position:relative;
