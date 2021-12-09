@@ -465,5 +465,9 @@ form{
     background-color: gray;
    
 }
+.logo a:hover{
+    background: none;
+}
+    
     
     
