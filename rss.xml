@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Obaveštenje</title>
+        <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/index.html<link>
+        <description>Obaveštenja sa sajta Mihajlo-Music</description>
+        <item>
+            <title>Prodaja Gitara</title>
+            <description>Prodajemo najbolje komade drveta.</description>
+            <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/proizvodi.html</link>
+        </item>
+        <item>
+            <title>Držimo Časove Gitare</title>
+            <description>Prvi čas besplatan</description>
+            <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/proizvodi.html</link>
+        </item>
+        <item>
+            <title>Posetite našu prodavnicu</title>
+            <description>Nalazimo se u Novoj Pazovi na adresi Pinkijeva 32, posetite nas!</description>
+            <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/onama.html</link>
+        </item>
+    </channel>
+</rss>
+
