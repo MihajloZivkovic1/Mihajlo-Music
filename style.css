@@ -352,25 +352,37 @@ footer{
 .ikone {
     width:350px;
     height:100%;
-    justify-content: right;
+    display: flex;
+    
+    
+}
+.ikone a{
+    width:70px;
+    height: 30px;
+    margin-left:30px;  
+}
+.ikone a:hover{
+    background: none;
 }
 .fab{
     height:40px;
     width:100px;
-    display: grid;
+    display: flex;
     size:5px;
-    margin:-90px;
-    padding:50px;
-    margin-right:55px;
+    margin: -100px;
+    padding:40px;
+    margin-right:70px;
+    
 }
 .fas{
     height:40px;
     width:100px;
-    display: grid;
+    display: inline-block;
     size:5px;
-    margin:-90px;
+    margin:-100px;
     padding:50px;
-    padding-bottom: 30px; 
+    margin-right: 80px;
+    
 }
 .slikautor{
     margin:40px;
