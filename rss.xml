@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Obaveštenje</title>
+        <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/</link>
+        <description>Obaveštenja sa sajta Mihajlo-Music</description>
+        <item>
+            <title>Prodaja gitara</title>
+            <description>Prodajemo najbolje komade drveta</description>
+            <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/proizvodi.html</link>
+        </item>
+        <item>
+            <title>Držimo Časove Gitare</title>
+            <description>Prvi čas besplatan</description>
+            <link>https://mihajlozivkovic1.github.io/Mihajlo-Music/proizvodi.html</link>
+        </item>
+    </channel>
+</rss>
+
